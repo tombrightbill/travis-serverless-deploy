@@ -3,5 +3,5 @@ addEventListener('fetch', event => {
   })
   
   async function handleRequest(request) {
-    return new Response("Serverless from Travis fo sho")
+    return new Response("Without any install -g")
   }
