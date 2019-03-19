@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tombrightbill/travis-serverless-deploy#readme",
   "devDependencies": {
+    "serverless": "^1.39.1",
     "serverless-cloudflare-workers": "^1.1.0"
   }
 }
