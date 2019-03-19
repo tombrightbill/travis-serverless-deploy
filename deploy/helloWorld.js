@@ -3,5 +3,5 @@ addEventListener('fetch', event => {
   })
   
   async function handleRequest(request) {
-    return new Response("Deploy from Serverless and travis!")
+    return new Response("Serverless from Travis fo sho")
   }
