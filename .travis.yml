@@ -7,7 +7,7 @@ install:
 
 deploy:
   - provider: script
-    script: sls deploy
+    script: cd deploy && sls deploy
     skip_cleanup: true
     on:
       branch: master
